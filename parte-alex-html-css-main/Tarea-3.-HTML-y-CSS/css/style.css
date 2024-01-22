@@ -1,0 +1,66 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Habitaciones*/
+
+img#flecha_volver {
+  float:right;
+  width: 50px;
+  height: 50px;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   margin-bottom: 10px;
+}
+
+img#individual{
+  float:left;
+  width:299px;
+  height: 270px;
+
+}
+
+img#doble{
+  float:right;
+  width:234px;
+  height: 190px;
+}
+
+img#suite_presidencial{
+  float:left;
+  width:234px;
+  height: 190px;
+}
+
+img#suite_normal{
+  float: right;
+  width: 220px;
+  height: 220px;
+}
+
+
+section.Habitacion:nth-child(3) {
+  grid-column: span 2; /* Ocupar dos columnas */
+}
+
+
+article {
+  margin-top: 20px;
+}
+
+
+main {
+display: flex; /* Utiliza un contenedor flexible (flexbox) */
+justify-content: center;
+}
+
+section {
+flex: 1; 
+border: 1px solid #ddd;
+padding: 20px;
+}
+
