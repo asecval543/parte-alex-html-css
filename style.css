@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+   background-color: #A894A1;
+
+}
+
+header,h1{
+text-align: center;
+}
+nav#navbar{
+ 
+}
+    
+main {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+section {
+  
+    border: 2px solid black;
+    padding: 20px;
+}
+
+section h2,
+section h3 {
+    text-align: center;
+}
+
+
+
+section article {
+    text-align: justify;
+}
+
+#Habitacion1
+#Habitacion2 {
+    grid-row: 1;
+    grid-column: 1;
+   margin-top: 2px;
+  
+}
+
+
+
+  img#individual{
+
+    width:299px;
+    height: 270px;
+    display: block;
+    margin-bottom: auto;
+  }
+  
+  img#doble{
+   display: block;
+  margin: auto;
+    width:234px;
+    height: 190px;
+  }
+  
+  img#suite_presidencial{
+   display: block;
+  margin: auto;
+  width:299px;
+  height: 270px;
+  }
+  
+  img#suite_normal{
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 220px;
+  }
+  
+
+
+    img#flecha_volver {
+        float: left;
+        margin-bottom: 0;
+        margin-right: 0;
+         width: 50px;
+    height: 50px;
+   
+     
+  }
+
+  
+    img#flecha_arriba{
+        float: right;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 50px;
+        height: 50px;
+       
+    }
+  
